@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-heading {
+    @apply font-bold uppercase text-gray-700;
+}
+
+.menu-link {
+    @apply px-2 hover:text-white focus:text-yellow-200
+}
